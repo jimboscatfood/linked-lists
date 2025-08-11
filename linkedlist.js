@@ -227,8 +227,11 @@ function NewNode(valueInput, nextNodeRef) {
   return nodeObj;
 }
 
-const list = LinkedList();
+//Tests
 
+// const list = LinkedList();
+
+//Test 1
 // list.append("dog");
 // list.append("cat");
 // list.append("parrot");
@@ -240,7 +243,6 @@ const list = LinkedList();
 // list.pop();
 // list.insertAt("hi", 1);
 // list.removeAt(7);
-
 // console.log(list.toString());
 // console.log(list.size());
 // console.log(list.getHead());
@@ -250,22 +252,23 @@ const list = LinkedList();
 // console.log(list.contains("ham"));
 // console.log(list.find("hamster"));
 
-list.append(2);
-list.prepend(1);
-list.prepend(0);
-list.append(3);
-list.append(4);
-list.append(5);
-console.log(list.size());
-console.log(list.getHead());
-console.log(list.getTail());
-console.log(list.at(1));
-list.pop();
-console.log(list.size());
-console.log(list.contains(4));
-console.log(list.find(4));
-console.log(list.toString());
-list.insertAt("insert", 3);
-console.log(list.toString());
-list.removeAt(4);
-console.log(list.toString());
+//Test 2
+// list.append(2);
+// list.prepend(1);
+// list.prepend(0);
+// list.append(3);
+// list.append(4);
+// list.append(5);
+// console.log(list.size());
+// console.log(list.getHead());
+// console.log(list.getTail());
+// console.log(list.at(1));
+// list.pop();
+// console.log(list.size());
+// console.log(list.contains(4));
+// console.log(list.find(4));
+// console.log(list.toString());
+// list.insertAt("insert", 3);
+// console.log(list.toString());
+// list.removeAt(4);
+// console.log(list.toString());
